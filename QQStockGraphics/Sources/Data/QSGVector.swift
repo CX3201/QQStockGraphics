@@ -9,15 +9,15 @@
 import UIKit
 
 class QSGVector {
-    private var data : Array<Double> = []
+    private var data: Array<Double> = []
     
-    var count : Int {
+    var count: Int {
         get {
             return data.count
         }
     }
     
-    subscript(i : Int) -> Double {
+    subscript(i: Int) -> Double {
         get {
             if(i < data.count){
                 return data[i]

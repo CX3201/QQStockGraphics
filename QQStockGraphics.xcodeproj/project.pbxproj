@@ -16,6 +16,7 @@
 		F29F69D5206A664C005976D7 /* QSGType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69D4206A664C005976D7 /* QSGType.swift */; };
 		F29F69D7206A735F005976D7 /* QSGGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69D6206A735F005976D7 /* QSGGraph.swift */; };
 		F29F69D9206A737B005976D7 /* QSGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69D8206A737B005976D7 /* QSGModel.swift */; };
+		F2A6725F206A9051003311D9 /* QSGCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6725E206A9051003311D9 /* QSGCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F29F69D4206A664C005976D7 /* QSGType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGType.swift; sourceTree = "<group>"; };
 		F29F69D6206A735F005976D7 /* QSGGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGGraph.swift; sourceTree = "<group>"; };
 		F29F69D8206A737B005976D7 /* QSGModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGModel.swift; sourceTree = "<group>"; };
+		F2A6725E206A9051003311D9 /* QSGCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		F29F69CF206A6250005976D7 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				F2A6725E206A9051003311D9 /* QSGCanvas.swift */,
 				F29F69D6206A735F005976D7 /* QSGGraph.swift */,
 			);
 			path = Graph;
@@ -185,6 +188,7 @@
 				F29F69D5206A664C005976D7 /* QSGType.swift in Sources */,
 				F29F69BF206A5B3A005976D7 /* ViewController.swift in Sources */,
 				F29F69D9206A737B005976D7 /* QSGModel.swift in Sources */,
+				F2A6725F206A9051003311D9 /* QSGCanvas.swift in Sources */,
 				F29F69BD206A5B3A005976D7 /* AppDelegate.swift in Sources */,
 				F29F69D7206A735F005976D7 /* QSGGraph.swift in Sources */,
 			);
