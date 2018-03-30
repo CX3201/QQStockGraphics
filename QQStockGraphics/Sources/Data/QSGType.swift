@@ -13,9 +13,5 @@ class QSGType {
 }
 
 extension Double {
-    var QSGValid: Bool {
-        get {
-            return self != QSGType.InvalidValue
-        }
-    }
+    var QSGValid: Bool { get { return self != QSGType.InvalidValue } }
 }

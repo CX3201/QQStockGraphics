@@ -81,6 +81,7 @@
 				F29F69CF206A6250005976D7 /* Graph */,
 				F29F69D0206A6250005976D7 /* Model */,
 				F29F69D1206A6250005976D7 /* Data */,
+				F2D8C0D4206E2A4A00B931AB /* Storage */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -109,6 +110,13 @@
 				F29F69D2206A6428005976D7 /* QSGVector.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		F2D8C0D4206E2A4A00B931AB /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -11,11 +11,7 @@ import UIKit
 class QSGVector {
     private var data: Array<Double> = []
     
-    var count: Int {
-        get {
-            return data.count
-        }
-    }
+    var count: Int { get { return data.count } }
     
     subscript(i: Int) -> Double {
         get {
