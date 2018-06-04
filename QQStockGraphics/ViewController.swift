@@ -14,12 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let v = QSGVector()
-        print(v[0], v[100], v[1000])
         v[0] = 0
         v[100] = 100
         v[1000] = 1000
         v[50000] = 50000
-        print(v[0], v[100], v[1000], v[50000])
+        debugPrint(v)
     }
 
     override func didReceiveMemoryWarning() {

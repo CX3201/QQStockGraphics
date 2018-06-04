@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F219E26720BBE7F90005F0C9 /* QSGCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219E26620BBE7F90005F0C9 /* QSGCalculator.swift */; };
+		F219E26920BE4D910005F0C9 /* QSGCalcPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219E26820BE4D910005F0C9 /* QSGCalcPresets.swift */; };
+		F219E26B20BE4DAF0005F0C9 /* QSGCalcCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219E26A20BE4DAF0005F0C9 /* QSGCalcCompiler.swift */; };
+		F219E26D20BE4FBE0005F0C9 /* QSGType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219E26C20BE4FBE0005F0C9 /* QSGType.swift */; };
 		F29F69BD206A5B3A005976D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69BC206A5B3A005976D7 /* AppDelegate.swift */; };
 		F29F69BF206A5B3A005976D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69BE206A5B3A005976D7 /* ViewController.swift */; };
 		F29F69C2206A5B3A005976D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29F69C0206A5B3A005976D7 /* Main.storyboard */; };
 		F29F69C4206A5B3A005976D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29F69C3206A5B3A005976D7 /* Assets.xcassets */; };
 		F29F69C7206A5B3A005976D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29F69C5206A5B3A005976D7 /* LaunchScreen.storyboard */; };
-		F29F69D3206A6428005976D7 /* QSGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69D2206A6428005976D7 /* QSGVector.swift */; };
-		F29F69D5206A664C005976D7 /* QSGType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69D4206A664C005976D7 /* QSGType.swift */; };
 		F29F69D7206A735F005976D7 /* QSGGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69D6206A735F005976D7 /* QSGGraph.swift */; };
 		F29F69D9206A737B005976D7 /* QSGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69D8206A737B005976D7 /* QSGModel.swift */; };
 		F2A6725F206A9051003311D9 /* QSGCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6725E206A9051003311D9 /* QSGCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F219E26620BBE7F90005F0C9 /* QSGCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSGCalculator.swift; sourceTree = "<group>"; };
+		F219E26820BE4D910005F0C9 /* QSGCalcPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGCalcPresets.swift; sourceTree = "<group>"; };
+		F219E26A20BE4DAF0005F0C9 /* QSGCalcCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGCalcCompiler.swift; sourceTree = "<group>"; };
+		F219E26C20BE4FBE0005F0C9 /* QSGType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSGType.swift; sourceTree = "<group>"; };
 		F29F69B9206A5B3A005976D7 /* QQStockGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQStockGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29F69BC206A5B3A005976D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29F69BE206A5B3A005976D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +33,6 @@
 		F29F69C3206A5B3A005976D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F29F69C6206A5B3A005976D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F29F69C8206A5B3A005976D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F29F69D2206A6428005976D7 /* QSGVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGVector.swift; sourceTree = "<group>"; };
-		F29F69D4206A664C005976D7 /* QSGType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGType.swift; sourceTree = "<group>"; };
 		F29F69D6206A735F005976D7 /* QSGGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGGraph.swift; sourceTree = "<group>"; };
 		F29F69D8206A737B005976D7 /* QSGModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGModel.swift; sourceTree = "<group>"; };
 		F2A6725E206A9051003311D9 /* QSGCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGCanvas.swift; sourceTree = "<group>"; };
@@ -45,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F219E26520BBE7F90005F0C9 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F219E26C20BE4FBE0005F0C9 /* QSGType.swift */,
+				F219E26620BBE7F90005F0C9 /* QSGCalculator.swift */,
+				F219E26A20BE4DAF0005F0C9 /* QSGCalcCompiler.swift */,
+				F219E26820BE4D910005F0C9 /* QSGCalcPresets.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
 		F29F69B0206A5B3A005976D7 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +95,7 @@
 			children = (
 				F29F69CF206A6250005976D7 /* Graph */,
 				F29F69D0206A6250005976D7 /* Model */,
+				F219E26520BBE7F90005F0C9 /* Calculator */,
 				F29F69D1206A6250005976D7 /* Data */,
 				F2D8C0D4206E2A4A00B931AB /* Storage */,
 			);
@@ -106,8 +122,6 @@
 		F29F69D1206A6250005976D7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				F29F69D4206A664C005976D7 /* QSGType.swift */,
-				F29F69D2206A6428005976D7 /* QSGVector.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -147,7 +161,7 @@
 			attributes = {
 				CLASSPREFIX = QSG;
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = abelchen;
 				TargetAttributes = {
 					F29F69B8206A5B3A005976D7 = {
@@ -192,13 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29F69D3206A6428005976D7 /* QSGVector.swift in Sources */,
-				F29F69D5206A664C005976D7 /* QSGType.swift in Sources */,
 				F29F69BF206A5B3A005976D7 /* ViewController.swift in Sources */,
+				F219E26B20BE4DAF0005F0C9 /* QSGCalcCompiler.swift in Sources */,
 				F29F69D9206A737B005976D7 /* QSGModel.swift in Sources */,
 				F2A6725F206A9051003311D9 /* QSGCanvas.swift in Sources */,
+				F219E26720BBE7F90005F0C9 /* QSGCalculator.swift in Sources */,
 				F29F69BD206A5B3A005976D7 /* AppDelegate.swift in Sources */,
+				F219E26920BE4D910005F0C9 /* QSGCalcPresets.swift in Sources */,
 				F29F69D7206A735F005976D7 /* QSGGraph.swift in Sources */,
+				F219E26D20BE4FBE0005F0C9 /* QSGType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +254,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +262,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -295,6 +313,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -302,6 +321,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
