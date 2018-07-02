@@ -11,6 +11,7 @@
 		F219E26920BE4D910005F0C9 /* QSGCalcPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219E26820BE4D910005F0C9 /* QSGCalcPresets.swift */; };
 		F219E26B20BE4DAF0005F0C9 /* QSGCalcCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219E26A20BE4DAF0005F0C9 /* QSGCalcCompiler.swift */; };
 		F219E26D20BE4FBE0005F0C9 /* QSGType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219E26C20BE4FBE0005F0C9 /* QSGType.swift */; };
+		F249141E20DB58F800DA512C /* QSGCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249141D20DB58F800DA512C /* QSGCommon.swift */; };
 		F29F69BD206A5B3A005976D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69BC206A5B3A005976D7 /* AppDelegate.swift */; };
 		F29F69BF206A5B3A005976D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F69BE206A5B3A005976D7 /* ViewController.swift */; };
 		F29F69C2206A5B3A005976D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29F69C0206A5B3A005976D7 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		F219E26820BE4D910005F0C9 /* QSGCalcPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGCalcPresets.swift; sourceTree = "<group>"; };
 		F219E26A20BE4DAF0005F0C9 /* QSGCalcCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGCalcCompiler.swift; sourceTree = "<group>"; };
 		F219E26C20BE4FBE0005F0C9 /* QSGType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSGType.swift; sourceTree = "<group>"; };
+		F249141D20DB58F800DA512C /* QSGCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSGCommon.swift; sourceTree = "<group>"; };
 		F29F69B9206A5B3A005976D7 /* QQStockGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQStockGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29F69BC206A5B3A005976D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29F69BE206A5B3A005976D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 				F219E26820BE4D910005F0C9 /* QSGCalcPresets.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F249141C20DB58B500DA512C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F249141D20DB58F800DA512C /* QSGCommon.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		F29F69B0206A5B3A005976D7 = {
@@ -93,6 +103,7 @@
 		F29F69CE206A5B5A005976D7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F249141C20DB58B500DA512C /* Common */,
 				F29F69CF206A6250005976D7 /* Graph */,
 				F29F69D0206A6250005976D7 /* Model */,
 				F219E26520BBE7F90005F0C9 /* Calculator */,
@@ -206,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F249141E20DB58F800DA512C /* QSGCommon.swift in Sources */,
 				F29F69BF206A5B3A005976D7 /* ViewController.swift in Sources */,
 				F219E26B20BE4DAF0005F0C9 /* QSGCalcCompiler.swift in Sources */,
 				F29F69D9206A737B005976D7 /* QSGModel.swift in Sources */,
