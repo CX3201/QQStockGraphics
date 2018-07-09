@@ -8,7 +8,15 @@
 
 import Foundation
 
-enum QSGStockType {
-    case HSNoraml
-    case HSIndex
+enum QSGMarketType : UInt {
+    case HS = 0
+    case HK
+    case US
+    case UNKNOWN
+}
+
+enum QSGStockType : UInt {
+    case STOCK = 0
+    case INDEX
+    case UNKNOWN
 }
