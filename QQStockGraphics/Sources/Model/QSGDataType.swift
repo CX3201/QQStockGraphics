@@ -1,5 +1,5 @@
 //
-//  QSGCommon.swift
+//  QSGDataType.swift
 //  QQStockGraphics
 //
 //  Created by abelchen on 2018/6/21.

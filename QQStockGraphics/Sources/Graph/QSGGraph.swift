@@ -8,6 +8,15 @@
 
 import UIKit
 
+// 每个图固定由Unit水平排列而来
+
+class QSGGraphUnit {
+    func draw(canvas: QSGCanvas, x: Double, width: Double) -> Void {
+        
+    }
+}
+
 class QSGGraph {
+    
     
 }
